@@ -1,0 +1,6 @@
+﻿python-telegram-bot==21.6
+reportlab==4.4.4
+Pillow>=10.0
+pypdf>=4.2
+pdfminer.six>=20221105
+tzdata>=2024.1
