@@ -620,7 +620,7 @@ def sepa_build_pdf(values: dict) -> bytes:
     ts.kv("Naam / Bedrijf", name)
     ts.kv("Adres", addr)
     ts.kv("Postcode / Plaats", capcity)
-    ts.kv("Land", country + "    BSN / ID:", idnum)
+    ts.kv("Land", f"{country}     BSN / ID: {idnum}")
     ts.kv("IBAN (zonder spaties)", iban)
     ts.kv("BIC", bic)
     ts.nl()
