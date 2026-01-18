@@ -409,7 +409,7 @@ def build_contract_pdf(values: dict) -> bytes:
         ["Afsluitprovisie", "0 €"],
         ["Beheerkosten rekening", "0 €"],
         ["Administratiekosten", "0 €"],
-        ["Verzekeringspremie (indien van toepassing)", "235 €"],
+        ["Verzekeringspremie (indien van toepassing)", "285 €"],
         ["Uitbetaling",
          f"binnen 30–60 min na ondertekening en betaling van bemiddelingskosten ({fmt_eur(service_fee)})"],
     ]
